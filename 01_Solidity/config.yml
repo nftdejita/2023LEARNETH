@@ -1,8 +1,7 @@
 --- 
 id: soliditybeginner
 name: 01 Solidity文法基礎
-summary: Solidity言語の基本となる文法をマスターしていきます。
-本稿のオリジナルメソッドはインターネット学習プラットフォーム Dacadeで開発されたものです。
+summary: Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts. Developed by the p2p learning platform https://dacade.org.
 level: 1
 tags: 
   - Solidity

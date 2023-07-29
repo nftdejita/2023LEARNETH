@@ -1,8 +1,7 @@
 --- 
 id: tokenCourse
-name: 03 ERC20トークン
-summary: このチュートリアルでは、Ethereum において暗号資産を作成するためのトークン規格であるERC20について解説します。
-本稿のオリジナルメソッドはインターネット学習プラットフォーム Dacadeで開発されたものです。
+name: 02 ERC20トークン
+summary: Solidity Beginner Course based on the popular https://solidity-by-example.org/ contracts. Developed by the p2p learning platform https://dacade.org.
 level: 2
 tags: 
   - Solidity
