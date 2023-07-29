@@ -1,0 +1,19 @@
+--- 
+id: NFT
+name: ERC721トークン (NFT)
+summary: Learn how to create your own NFT tokens. Developed by the p2p learning platform https://dacade.org.
+level: 3
+tags: 
+  - Solidity
+  - Tokens
+  - NFT
+steps:
+  - name: 1. 概要
+    path: introduction
+  - name: 2. 基本仕様
+    path: erc721-interface
+  - name: 3. 外部データ仕様
+    path: erc721-interface-metadata
+  - name: 4. トークンの作成
+    path: erc721-token-creation
+

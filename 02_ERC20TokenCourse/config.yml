@@ -1,0 +1,19 @@
+--- 
+id: tokenCourse
+name: 03 ERC20トークン
+summary: このチュートリアルでは、Ethereum において暗号資産を作成するためのトークン規格であるERC20について解説します。
+本稿のオリジナルメソッドはインターネット学習プラットフォーム Dacadeで開発されたものです。
+level: 2
+tags: 
+  - Solidity
+  - Tokens
+  - ERC20
+steps:
+  - name: 1. 概要
+    path: introduction
+  - name: 2. インターフェース
+    path: erc20-interface
+  - name: 3. トークンの作成
+    path: erc20-token-creation
+  - name: 4. トークンの操作
+    path: erc20-interaction
