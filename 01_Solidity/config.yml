@@ -44,4 +44,6 @@ steps:
     path: 18_receiving-ether
   - name: 19 乱数
     path: 19_random
+  - name: 20 コントラクトのアカウント
+    path: 20_accounts
 
