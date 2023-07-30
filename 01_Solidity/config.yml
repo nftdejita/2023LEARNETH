@@ -38,5 +38,7 @@ steps:
     path: 15_inputs-and-outputs
   - name: 16 イベント処理 Event
     path: 16_events
+  - name: 17 Etherの送金方法
+    path: 17_sending-ether
 
 
