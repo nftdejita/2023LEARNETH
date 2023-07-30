@@ -40,5 +40,6 @@ steps:
     path: 16_events
   - name: 17 Etherの送金方法
     path: 17_sending-ether
-
+  - name: 18 Etherの受信方法
+    path: 18_receiving-ether
 
