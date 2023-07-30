@@ -1,6 +1,6 @@
 pragma solidity ^0.8.3;
 import "remix_tests.sol";
-import "./rand.sol";
+import "./random.sol";
 
 contract MyTest {
     TestContract testContract;

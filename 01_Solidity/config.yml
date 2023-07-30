@@ -43,5 +43,5 @@ steps:
   - name: 18 Etherの受信方法
     path: 18_receiving-ether
   - name: 19 乱数
-    path: 19_rand
+    path: 19_random
 
