@@ -27,9 +27,12 @@ contract MyTest {
     }
 
 
+    /// #value: 0
+    /// #sender: acc1
     function checkWithdraw() public payable{
         testContract.withdraw(1 ether);
         Assert.equal(testContract.balances(address(this)), 0 ether, "Balance is not correct after withdraw");
     }
 
+    receive() external payable {}
 }
