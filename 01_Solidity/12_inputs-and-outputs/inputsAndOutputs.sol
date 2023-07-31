@@ -9,12 +9,12 @@ contract TestContract {
     // カスタムエラーの定義
     error InsufficientBalance(uint256 available, uint256 required);
 
-    function buy(uint _amount) public {
+    function buy(uint _amount) public view{
         require(_amount <= availableStock, "Not enough stock available.");
         // 購入処理
     }
 
-    function sell(uint _amount) public {
+    function sell(uint _amount) public view{
         if (_amount > availableStock) {
             revert("Not enough stock to sell.");
         }
