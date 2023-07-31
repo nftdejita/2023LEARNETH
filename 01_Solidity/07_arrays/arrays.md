@@ -30,6 +30,8 @@ Solidityでは、同じ型の要素を順序付けて格納するために配列
 このコードは固定長と可変長の配列を示しています。`fixedArray`は固定長の配列で、`dynamicArray`は可変長の配列です。
 
 ## ⭐️課題
-1. `dynamicArray`に新しい要素を追加する関数を作成します。
-2. `dynamicArray`から最後の要素を削除する関数を作成します。
-3. `fixedArray`と`dynamicArray`の要素にアクセスする関数を作成します。
+1. 変数 `fixedArray` についてセット関数 `setFixedArray(uint _index, uint _value)`とゲット関数 `getFixedArray(uint _index) ` を作成します。
+2. `dynamicArray`に新しい要素を追加する関数 `pushDynamicArray(uint _value)` を作成します。
+3. `dynamicArray`から最後の要素を削除する関数 `popDynamicArray() ` を作成します。
+4. 変数 `dynamicArray`の要素にアクセスする関数 `getDynamicArray(uint _index)` を作成します。
+5. 変数 `dynamicArray`の配列の長さを取得する関数 `getDynamicArrayLength()` を作成します。
