@@ -8,35 +8,36 @@ tags:
 steps:
   - name: 01. 基本レイアウト
     path: 01_basic-layout
-  - name: 02 関数の記述形式
+  - name: 02. 関数の記述形式
     path: 02_functions
   - name: 03. 変数型
     path: 03_data-types
-    path: 04_visibility
   - name: 04. 変数の宣言と可視性
-    path: 05_variable-type
+    path: 04_visibility
   - name: 05. 変数タイプ
+    path: 05_variable-type
   - name: 06. 構造体
     path: 06_structs
-  - name: 07 配列
+  - name: 07. 配列
     path: 07_arrays
-  - name: 08 列挙型
+  - name: 08. 列挙型
     path: 08_enums
-  - name: 09 マッピング
+  - name: 09. マッピング
     path: 09_mappings
-  - name: 10 制御構文 IF文
+  - name: 10. 制御構文 IF文
     path: 10_if-else
-  - name: 11 繰り返し構文 for、while文
+  - name: 11. 繰り返し構文 for、while文
     path: 11_loops
-  - name: 12 入力チェック処理
+  - name: 12. 入力チェック処理
     path: 12_inputs-and-outputsworkshops
-  - name: 13 イベント処理 Event
+  - name: 13. イベント処理 Event
     path: 13_events
-  - name: 14 Etherの送金方法
+  - name: 14. Etherの送金方法
     path: 14_sending-ether
-  - name: 15 Etherの受信方法
+  - name: 15. Etherの受信方法
     path: 15_receiving-ether
-  - name: 16 乱数
+  - name: 16. 乱数
     path: 16_random
-  - name: 17 コントラクトのアカウント
+  - name: 17. コントラクトのアカウント
     path: 17_accounts
+
