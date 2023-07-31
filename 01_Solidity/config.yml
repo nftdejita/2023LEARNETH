@@ -29,7 +29,7 @@ steps:
   - name: 11. 繰り返し構文 for、while文
     path: 11_loops
   - name: 12. 入力チェック処理
-    path: 12_inputs-and-outputsworkshops
+    path: 12_inputs-and-outputs
   - name: 13. イベント処理 Event
     path: 13_events
   - name: 14. Etherの送金方法
