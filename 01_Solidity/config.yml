@@ -6,44 +6,37 @@ level: 1
 tags: 
   - Solidity
 steps:
-  - name: 1. 基本レイアウト
-    path: 1_basic-layout
-  - name: 2. 変数型
-    path: 2_data-types
-  - name: 3. 変数タイプ
-    path: 3_variable-type
-  - name: 4. 変数の宣言と可視性
-    path: 4_visibility
-  - name: 5. 構造体
-    path: 5_structs
-  - name: 6 配列
-    path: 6_arrays
-  - name: 7 列挙型
-    path: 7_enums
-  - name: 8 マッピング
-    path: 8_mappings
-  - name: 9 制御構文 IF文
-    path: 9_if-else
-  - name: 10 繰り返し構文 for、while文
-    path: 10_loops
-  - name: 11 関数の引数
-    path: 11_functions
-  - name: 12 データ場所
-    path: 12_data-locations
-  - name: 13 View と Pure
-    path: 13_view-and-pure
-  - name: 14 コントラクトの基本動作
-    path: 14_modifiers-and-constructors
-  - name: 15 入力チェック処理
-    path: 15_inputs-and-outputsworkshops
-  - name: 16 イベント処理 Event
-    path: 16_events
-  - name: 17 Etherの送金方法
-    path: 17_sending-ether
-  - name: 18 Etherの受信方法
-    path: 18_receiving-ether
-  - name: 19 乱数
-    path: 19_random
-  - name: 20 コントラクトのアカウント
-    path: 20_accounts
-
+  - name: 01. 基本レイアウト
+    path: 01_basic-layout
+  - name: 02 関数の記述形式
+    path: 02_functions
+  - name: 03. 変数型
+    path: 03_data-types
+    path: 04_visibility
+  - name: 04. 変数の宣言と可視性
+    path: 05_variable-type
+  - name: 05. 変数タイプ
+  - name: 06. 構造体
+    path: 06_structs
+  - name: 07 配列
+    path: 07_arrays
+  - name: 08 列挙型
+    path: 08_enums
+  - name: 09 マッピング
+    path: 09_mappings
+  - name: 10 制御構文 IF文
+    path: 10_if-else
+  - name: 11 繰り返し構文 for、while文
+    path: 11_loops
+  - name: 12 入力チェック処理
+    path: 12_inputs-and-outputsworkshops
+  - name: 13 イベント処理 Event
+    path: 13_events
+  - name: 14 Etherの送金方法
+    path: 14_sending-ether
+  - name: 15 Etherの受信方法
+    path: 15_receiving-ether
+  - name: 16 乱数
+    path: 16_random
+  - name: 17 コントラクトのアカウント
+    path: 17_accounts
