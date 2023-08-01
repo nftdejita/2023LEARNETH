@@ -13,6 +13,8 @@ contract Charity {
     function withdraw() public {
         require(msg.sender == owner, "Only the owner can withdraw");
         uint amount = address(this).balance;
-        payable(owner).transfer(amount);
+        //payable(owner).transfer(amount);
+        (bool sent, ) = payable(owner).call{value: amount}("");
+        require(sent, "Failed to send Ether");
     }
 }
